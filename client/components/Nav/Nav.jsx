@@ -6,6 +6,12 @@ const NavBar = () => {
   return (
     <div className="navWrap">
       <li>
+        <Link className="linkItem" to="/login">
+          Login
+        </Link>
+      </li>
+
+      <li>
         <Link className="linkItem" to="/">
           Home
         </Link>
