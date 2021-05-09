@@ -1,0 +1,230 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-size: 10px; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.appWrap {
+  font-size: 1.5rem;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column; }
+
+.formWrap {
+  background-image: url("https://a3gm9zr4dkvu.cdn.shift8web.com/wp-content/uploads/2019/04/Bauma_1366x768.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 5em; }
+  .formWrap form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    min-width: 305px;
+    background: rgba(252, 252, 252, 0.924);
+    padding: 3rem;
+    border-radius: 5px; }
+    .formWrap form > * {
+      margin-bottom: 1rem; }
+    .formWrap form h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem; }
+    .formWrap form input {
+      border: 1px solid lightslategray;
+      border-radius: 5px;
+      padding: 0.5rem;
+      height: 10%; }
+    .formWrap form button {
+      border: 1px solid lightslategray;
+      border-radius: 5px;
+      padding: 0.5rem;
+      font-size: 1.1rem;
+      cursor: pointer;
+      width: 30%; }
+      .formWrap form button:hover {
+        background: #fecc09; }
+
+.allMachines {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  @media only screen and (min-width: 700px) {
+    .allMachines {
+      flex-direction: row; } }
+  .allMachines .machineCard {
+    border: 2px solid gray;
+    width: 90%;
+    margin: 2rem;
+    border-radius: 0.5rem; }
+    .allMachines .machineCard img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
+    .allMachines .machineCard .innerCard {
+      width: 100%; }
+      .allMachines .machineCard .innerCard div {
+        text-align: center; }
+      .allMachines .machineCard .innerCard h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem; }
+      .allMachines .machineCard .innerCard h3 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem; }
+      .allMachines .machineCard .innerCard .column {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+      .allMachines .machineCard .innerCard .row {
+        width: 95%;
+        display: flex;
+        border: 2px solid lightslategray;
+        border-radius: 5px;
+        margin-bottom: 0.5rem; }
+        .allMachines .machineCard .innerCard .row div {
+          padding: 0.5rem;
+          margin: auto; }
+
+.navWrap {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 20px 0;
+  box-shadow: 0px 2px 6px rgba(128, 128, 128, 0.637); }
+  .navWrap li {
+    list-style-type: none; }
+    .navWrap li :hover {
+      color: #fec606; }
+  .navWrap .linkItem {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    transition: all 0.2s ease-in; }
+
+
+/*# sourceMappingURL=/client.e31bb0bc.css.map */
